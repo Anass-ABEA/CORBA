@@ -31,18 +31,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TP2/autogen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/TP3" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TP3.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anass\Desktop\Courses\ERO\TP_ERO\src\TP3\autogen" />
       <recent name="C:\Users\Anass\Desktop\Courses\ERO\TP_ERO\src\TP2\autogen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TP3.impl.Client" />
+      <module name="TP_ERO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TP3.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TP2.impl.Client" />
       <module name="TP_ERO" />
@@ -69,8 +86,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TP3.impl.Server" />
+      <module name="TP_ERO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TP3.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.DelegationServer" />
       </list>
@@ -92,30 +124,38 @@
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
     <state x="717" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1030@0.0.1920.1030" timestamp="1622109964742" />
-    <state width="1493" height="164" key="GridCell.Tab.0.bottom" timestamp="1622587829072">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1622727529481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622587829072" />
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622727529481" />
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1622729141836">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622729141836" />
     <state width="904" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1030@0.0.1920.1030" timestamp="1622113151883" />
-    <state width="1493" height="164" key="GridCell.Tab.0.center" timestamp="1622587829072">
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1622729141835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622587829072" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622729141835" />
     <state width="904" height="200" key="GridCell.Tab.0.center/0.0.1920.1030@0.0.1920.1030" timestamp="1622113151882" />
-    <state width="1493" height="164" key="GridCell.Tab.0.left" timestamp="1622587829072">
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1622729141835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622587829072" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622729141835" />
     <state width="904" height="200" key="GridCell.Tab.0.left/0.0.1920.1030@0.0.1920.1030" timestamp="1622113151882" />
-    <state width="1493" height="164" key="GridCell.Tab.0.right" timestamp="1622587829072">
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1622729141835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622587829072" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622729141835" />
     <state width="904" height="200" key="GridCell.Tab.0.right/0.0.1920.1030@0.0.1920.1030" timestamp="1622113151882" />
-    <state x="482" y="146" width="573" height="534" key="find.popup" timestamp="1622122994197">
+    <state x="482" y="146" width="573" height="534" key="find.popup" timestamp="1622728249960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="482" y="146" width="573" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1622122994197" />
+    <state x="482" y="146" width="573" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1622728249960" />
     <state x="602" y="182" width="716" height="666" key="find.popup/0.0.1920.1030@0.0.1920.1030" timestamp="1622110148739" />
+    <state x="360" y="33" key="new project wizard" timestamp="1622643274232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622643274232" />
   </component>
 </project>
