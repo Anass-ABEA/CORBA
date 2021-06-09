@@ -17,7 +17,7 @@ remarques du cours établis par Anass AIT BEN EL ARBI pendant les séances de TP
 ## TP 3: utilisation de NameSpace
 Before running the code execute the following code : 
 
-`java Server -ORBInitRef`
+`orbd –ORBInitialPort 777`
 
 then run the Server and the Client 
 

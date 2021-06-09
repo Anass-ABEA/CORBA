@@ -6,14 +6,12 @@ import org.omg.CORBA.ORBPackage.InvalidName;
 import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NamingContext;
 import org.omg.CosNaming.NamingContextHelper;
-import org.omg.CosNaming.NamingContextPackage.CannotProceed;
-import org.omg.CosNaming.NamingContextPackage.NotFound;
 import org.omg.PortableServer.POA;
 import org.omg.PortableServer.POAHelper;
-import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
 
 import java.util.Properties;
 
+import static java.lang.System.exit;
 import static java.lang.System.getProperties;
 
 public class Server {
@@ -46,8 +44,10 @@ public class Server {
             System.out.println("Server started. Stop : Ctrl-C");
             rootPOA.the_POAManager().activate();
             orb.run();
-        } catch (InvalidName | CannotProceed | org.omg.CosNaming.NamingContextPackage.InvalidName | NotFound | AdapterInactive invalidName) {
-            invalidName.printStackTrace();
+        } catch (Exception invalidName) {
+            System.err.println("YOU SHOUD CONSIDER EXECUTING THE FOLLOWING COMMAND : \"java Server -ORBInitRef\"");
+            System.out.println(invalidName.getMessage());
+            exit(0);
         }
     }
 
