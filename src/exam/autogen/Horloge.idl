@@ -1,0 +1,7 @@
+interface Horloge{
+    readonly attribute long heure;
+    readonly attribute long minute;
+    string GMT();
+    string GMT_PLUS_1();
+    void setTime(in long h ,in long m );
+};
