@@ -87,8 +87,8 @@ public class Client extends JPanel {
             );
             NameComponent[] name = new NameComponent[1];
             name[0] = new NameComponent();
-            name[0].id = "Counter";
-            name[0].kind = "IIOP";
+            name[0].id = "Horloge";
+            name[0].kind = "Object";
             org.omg.CORBA.Object obj = nc.resolve(name);
             horloge = HorlogeHelper.narrow(obj);
             createGUI();

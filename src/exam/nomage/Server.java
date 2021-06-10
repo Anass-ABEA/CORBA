@@ -38,8 +38,8 @@ public class Server {
             Horloge horloge = c_impl._this(orb);
             NameComponent[] name = new NameComponent[1];
             name[0] = new NameComponent();
-            name[0].id = "Counter";
-            name[0].kind = "IIOP";
+            name[0].id = "Horloge";
+            name[0].kind = "Object";
             nc.rebind(name, horloge);
             System.out.println("Server started. Stop : Ctrl-C");
             rootPOA.the_POAManager().activate();
